@@ -18,11 +18,12 @@ import com.auth0.jwt.algorithms.Algorithm;
 @Slf4j
 public class JwtTokenHelper 
 {
+	// Can set secret key from application property, if so by changing this can force a fresh login.
 	private static final String secretKey = "HkotYi_74j3#";
 	public static final String ROLES = "roles";
 	Algorithm algorithm;
-	private static final int accessTimeOut = 10*60*50;
-	private static final int refreshTimeOut = 30*60*1000;
+	private static final int accessTimeOut = 10*60*50; // for 5 seconds
+	private static final int refreshTimeOut = 30*60*1000; // for 30 minutes
 	
 	private JwtTokenHelper()
 	{
