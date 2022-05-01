@@ -6,7 +6,7 @@ Its a sample application for implementing JWT token validation.
 In any project you can copy security folder and can easily attain token implementation through small changes.
 
 ### Guidelines
-You have to follow below points for attaining the features based on your project.
+You have to follow below points for attaining the feature based on your project.
 * Implement database connectivity details in application.property file and add needed dependencies in pom file.
 * Add your own business logic in AppUserDetails class after reading inline comments.
 * Use AppAuthorizeRequestMatchers class for adding url permission and roles.
