@@ -1,4 +1,4 @@
-# Spring Boot + JWT Token
+# Spring Boot + JWT Token[Access & Refresh]
 
 ## Implementation of authentication and authorization with JWT token
 
